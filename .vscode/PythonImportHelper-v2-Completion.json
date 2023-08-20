@@ -1,0 +1,205 @@
+[
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.select",
+        "description": "selenium.webdriver.support.select",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.select",
+        "documentation": {}
+    },
+    {
+        "label": "Options",
+        "importPath": "selenium.webdriver.chrome.options",
+        "description": "selenium.webdriver.chrome.options",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.options",
+        "documentation": {}
+    },
+    {
+        "label": "Options",
+        "importPath": "selenium.webdriver.chrome.options",
+        "description": "selenium.webdriver.chrome.options",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.options",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.wait",
+        "description": "selenium.webdriver.support.wait",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.wait",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "chrome_options",
+        "kind": 5,
+        "importPath": "locator",
+        "description": "locator",
+        "peekOfCode": "chrome_options = Options()\nchrome_options.add_experimental_option(\"detach\", True)\nservice_obj = Service(\"./chromedriver\")\ndriver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.find_element(By.LINK_TEXT,\"Sign In\").click()\ndriver.find_element(By.PARTIAL_LINK_TEXT,\"Register\").click()\n# driver.implicitly_wait(2)\nprint(driver.find_element(By.XPATH,\"//h3[normalize-space()='Account Information']\").text)",
+        "detail": "locator",
+        "documentation": {}
+    },
+    {
+        "label": "service_obj",
+        "kind": 5,
+        "importPath": "locator",
+        "description": "locator",
+        "peekOfCode": "service_obj = Service(\"./chromedriver\")\ndriver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.find_element(By.LINK_TEXT,\"Sign In\").click()\ndriver.find_element(By.PARTIAL_LINK_TEXT,\"Register\").click()\n# driver.implicitly_wait(2)\nprint(driver.find_element(By.XPATH,\"//h3[normalize-space()='Account Information']\").text)\ndriver.find_element(By.CSS_SELECTOR,\"input[name*='firstName']\").send_keys(\"testFirst\")\ndriver.find_element(By.XPATH,\"//input[@name='account.lastName']\").send_keys(\"testLast\")",
+        "detail": "locator",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "locator",
+        "description": "locator",
+        "peekOfCode": "driver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.find_element(By.LINK_TEXT,\"Sign In\").click()\ndriver.find_element(By.PARTIAL_LINK_TEXT,\"Register\").click()\n# driver.implicitly_wait(2)\nprint(driver.find_element(By.XPATH,\"//h3[normalize-space()='Account Information']\").text)\ndriver.find_element(By.CSS_SELECTOR,\"input[name*='firstName']\").send_keys(\"testFirst\")\ndriver.find_element(By.XPATH,\"//input[@name='account.lastName']\").send_keys(\"testLast\")\ndriver.find_element(By.XPATH,\"//input[@name='account.lastName']\").clear()",
+        "detail": "locator",
+        "documentation": {}
+    },
+    {
+        "label": "dropdownLanguage",
+        "kind": 5,
+        "importPath": "locator",
+        "description": "locator",
+        "peekOfCode": "dropdownLanguage = Select(driver.find_element(By.CSS_SELECTOR,\"select[name*='language']\"))\ndropdownLanguage.select_by_index(1)\ndropdownLanguage.select_by_visible_text(\"japanese\")\ndriver.find_element(By.NAME,\"keyword\").send_keys(\"goldfish\")\ndriver.find_element(By.NAME,\"searchProducts\").click()",
+        "detail": "locator",
+        "documentation": {}
+    },
+    {
+        "label": "someFunction",
+        "kind": 2,
+        "importPath": "python-basic",
+        "description": "python-basic",
+        "peekOfCode": "def someFunction(some_name):\n    lists = [1, 4.6, 9, \"Champ\", 3, 7]\n    lists.append(some_name)\n    lists[0] = \"First\"\n    print(\"first : {}\".format(lists[0]))\n    print(\"last : {}\".format(lists[-1]))\n    print(\"name : {}\".format(lists[3]))\n    print(\"middle 2 : {}\\n\".format(lists[2:4]))\n    for i in lists:\n        if isinstance(i,str):",
+        "detail": "python-basic",
+        "documentation": {}
+    },
+    {
+        "label": "service_obj",
+        "kind": 5,
+        "importPath": "selenium-webdriver",
+        "description": "selenium-webdriver",
+        "peekOfCode": "service_obj = Service(\"/Users/a667194/Workspace/Knowledge/Automated-Test/python-selenium/chromedriver\")\ndriver = webdriver.Chrome(service = service_obj)\ndriver.maximize_window()\ndriver.get(\"https://google.com\")\nprint(driver.title)\nprint(driver.current_url)\ndriver.get(\"https://youtube.com\")\ndriver.minimize_window()\ndriver.back()\ndriver.refresh()",
+        "detail": "selenium-webdriver",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "selenium-webdriver",
+        "description": "selenium-webdriver",
+        "peekOfCode": "driver = webdriver.Chrome(service = service_obj)\ndriver.maximize_window()\ndriver.get(\"https://google.com\")\nprint(driver.title)\nprint(driver.current_url)\ndriver.get(\"https://youtube.com\")\ndriver.minimize_window()\ndriver.back()\ndriver.refresh()\ndriver.forward()",
+        "detail": "selenium-webdriver",
+        "documentation": {}
+    },
+    {
+        "label": "chrome_options",
+        "kind": 5,
+        "importPath": "wait",
+        "description": "wait",
+        "peekOfCode": "chrome_options = Options()\nchrome_options.add_experimental_option(\"detach\", True)\nservice_obj = Service(\"./chromedriver\")\ndriver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.implicitly_wait(5)\nwait = WebDriverWait(driver,10)\nwait.until(expected_conditions.presence_of_all_elements_located(By.CSS_SELECTOR,\".someclass\"))",
+        "detail": "wait",
+        "documentation": {}
+    },
+    {
+        "label": "service_obj",
+        "kind": 5,
+        "importPath": "wait",
+        "description": "wait",
+        "peekOfCode": "service_obj = Service(\"./chromedriver\")\ndriver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.implicitly_wait(5)\nwait = WebDriverWait(driver,10)\nwait.until(expected_conditions.presence_of_all_elements_located(By.CSS_SELECTOR,\".someclass\"))",
+        "detail": "wait",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "wait",
+        "description": "wait",
+        "peekOfCode": "driver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.implicitly_wait(5)\nwait = WebDriverWait(driver,10)\nwait.until(expected_conditions.presence_of_all_elements_located(By.CSS_SELECTOR,\".someclass\"))",
+        "detail": "wait",
+        "documentation": {}
+    },
+    {
+        "label": "wait",
+        "kind": 5,
+        "importPath": "wait",
+        "description": "wait",
+        "peekOfCode": "wait = WebDriverWait(driver,10)\nwait.until(expected_conditions.presence_of_all_elements_located(By.CSS_SELECTOR,\".someclass\"))",
+        "detail": "wait",
+        "documentation": {}
+    }
+]

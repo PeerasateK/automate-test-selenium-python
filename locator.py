@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.select import Select
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
@@ -19,6 +20,12 @@ print(driver.find_element(By.XPATH,"//h3[normalize-space()='Account Information'
 driver.find_element(By.CSS_SELECTOR,"input[name*='firstName']").send_keys("testFirst")
 driver.find_element(By.XPATH,"//input[@name='account.lastName']").send_keys("testLast")
 driver.find_element(By.XPATH,"//input[@name='account.lastName']").clear()
+
+# ---static dropdown---
+dropdownLanguage = Select(driver.find_element(By.CSS_SELECTOR,"select[name*='language']"))
+dropdownLanguage.select_by_index(1)
+dropdownLanguage.select_by_visible_text("japanese")
+
 driver.find_element(By.NAME,"keyword").send_keys("goldfish")
 driver.find_element(By.NAME,"searchProducts").click()
 
