@@ -15,7 +15,6 @@ driver.get("https://petstore.octoperf.com/actions/Catalog.action")
 
 driver.find_element(By.LINK_TEXT,"Sign In").click()
 driver.find_element(By.PARTIAL_LINK_TEXT,"Register").click()
-# driver.implicitly_wait(2)
 print(driver.find_element(By.XPATH,"//h3[normalize-space()='Account Information']").text)
 driver.find_element(By.CSS_SELECTOR,"input[name*='firstName']").send_keys("testFirst")
 driver.find_element(By.XPATH,"//input[@name='account.lastName']").send_keys("testLast")
@@ -28,4 +27,3 @@ dropdownLanguage.select_by_visible_text("japanese")
 
 driver.find_element(By.NAME,"keyword").send_keys("goldfish")
 driver.find_element(By.NAME,"searchProducts").click()
-

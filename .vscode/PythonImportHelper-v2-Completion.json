@@ -108,7 +108,7 @@
         "kind": 5,
         "importPath": "locator",
         "description": "locator",
-        "peekOfCode": "chrome_options = Options()\nchrome_options.add_experimental_option(\"detach\", True)\nservice_obj = Service(\"./chromedriver\")\ndriver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.find_element(By.LINK_TEXT,\"Sign In\").click()\ndriver.find_element(By.PARTIAL_LINK_TEXT,\"Register\").click()\n# driver.implicitly_wait(2)\nprint(driver.find_element(By.XPATH,\"//h3[normalize-space()='Account Information']\").text)",
+        "peekOfCode": "chrome_options = Options()\nchrome_options.add_experimental_option(\"detach\", True)\nservice_obj = Service(\"./chromedriver\")\ndriver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.find_element(By.LINK_TEXT,\"Sign In\").click()\ndriver.find_element(By.PARTIAL_LINK_TEXT,\"Register\").click()\nprint(driver.find_element(By.XPATH,\"//h3[normalize-space()='Account Information']\").text)\ndriver.find_element(By.CSS_SELECTOR,\"input[name*='firstName']\").send_keys(\"testFirst\")",
         "detail": "locator",
         "documentation": {}
     },
@@ -117,7 +117,7 @@
         "kind": 5,
         "importPath": "locator",
         "description": "locator",
-        "peekOfCode": "service_obj = Service(\"./chromedriver\")\ndriver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.find_element(By.LINK_TEXT,\"Sign In\").click()\ndriver.find_element(By.PARTIAL_LINK_TEXT,\"Register\").click()\n# driver.implicitly_wait(2)\nprint(driver.find_element(By.XPATH,\"//h3[normalize-space()='Account Information']\").text)\ndriver.find_element(By.CSS_SELECTOR,\"input[name*='firstName']\").send_keys(\"testFirst\")\ndriver.find_element(By.XPATH,\"//input[@name='account.lastName']\").send_keys(\"testLast\")",
+        "peekOfCode": "service_obj = Service(\"./chromedriver\")\ndriver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.find_element(By.LINK_TEXT,\"Sign In\").click()\ndriver.find_element(By.PARTIAL_LINK_TEXT,\"Register\").click()\nprint(driver.find_element(By.XPATH,\"//h3[normalize-space()='Account Information']\").text)\ndriver.find_element(By.CSS_SELECTOR,\"input[name*='firstName']\").send_keys(\"testFirst\")\ndriver.find_element(By.XPATH,\"//input[@name='account.lastName']\").send_keys(\"testLast\")\ndriver.find_element(By.XPATH,\"//input[@name='account.lastName']\").clear()",
         "detail": "locator",
         "documentation": {}
     },
@@ -126,7 +126,7 @@
         "kind": 5,
         "importPath": "locator",
         "description": "locator",
-        "peekOfCode": "driver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.find_element(By.LINK_TEXT,\"Sign In\").click()\ndriver.find_element(By.PARTIAL_LINK_TEXT,\"Register\").click()\n# driver.implicitly_wait(2)\nprint(driver.find_element(By.XPATH,\"//h3[normalize-space()='Account Information']\").text)\ndriver.find_element(By.CSS_SELECTOR,\"input[name*='firstName']\").send_keys(\"testFirst\")\ndriver.find_element(By.XPATH,\"//input[@name='account.lastName']\").send_keys(\"testLast\")\ndriver.find_element(By.XPATH,\"//input[@name='account.lastName']\").clear()",
+        "peekOfCode": "driver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.find_element(By.LINK_TEXT,\"Sign In\").click()\ndriver.find_element(By.PARTIAL_LINK_TEXT,\"Register\").click()\nprint(driver.find_element(By.XPATH,\"//h3[normalize-space()='Account Information']\").text)\ndriver.find_element(By.CSS_SELECTOR,\"input[name*='firstName']\").send_keys(\"testFirst\")\ndriver.find_element(By.XPATH,\"//input[@name='account.lastName']\").send_keys(\"testLast\")\ndriver.find_element(By.XPATH,\"//input[@name='account.lastName']\").clear()\n# ---static dropdown---",
         "detail": "locator",
         "documentation": {}
     },
