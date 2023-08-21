@@ -1,50 +1,26 @@
 [
     {
-        "label": "webdriver",
-        "importPath": "selenium",
-        "description": "selenium",
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
         "isExtraImport": true,
-        "detail": "selenium",
+        "detail": "selenium.webdriver.support",
         "documentation": {}
     },
     {
-        "label": "webdriver",
-        "importPath": "selenium",
-        "description": "selenium",
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
         "isExtraImport": true,
-        "detail": "selenium",
+        "detail": "selenium.webdriver.support",
         "documentation": {}
     },
     {
-        "label": "webdriver",
-        "importPath": "selenium",
-        "description": "selenium",
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
         "isExtraImport": true,
-        "detail": "selenium",
-        "documentation": {}
-    },
-    {
-        "label": "Service",
-        "importPath": "selenium.webdriver.chrome.service",
-        "description": "selenium.webdriver.chrome.service",
-        "isExtraImport": true,
-        "detail": "selenium.webdriver.chrome.service",
-        "documentation": {}
-    },
-    {
-        "label": "Service",
-        "importPath": "selenium.webdriver.chrome.service",
-        "description": "selenium.webdriver.chrome.service",
-        "isExtraImport": true,
-        "detail": "selenium.webdriver.chrome.service",
-        "documentation": {}
-    },
-    {
-        "label": "Service",
-        "importPath": "selenium.webdriver.chrome.service",
-        "description": "selenium.webdriver.chrome.service",
-        "isExtraImport": true,
-        "detail": "selenium.webdriver.chrome.service",
+        "detail": "selenium.webdriver.support.ui",
         "documentation": {}
     },
     {
@@ -56,19 +32,75 @@
         "documentation": {}
     },
     {
-        "label": "Options",
-        "importPath": "selenium.webdriver.chrome.options",
-        "description": "selenium.webdriver.chrome.options",
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.select",
+        "description": "selenium.webdriver.support.select",
         "isExtraImport": true,
-        "detail": "selenium.webdriver.chrome.options",
+        "detail": "selenium.webdriver.support.select",
         "documentation": {}
     },
     {
-        "label": "Options",
-        "importPath": "selenium.webdriver.chrome.options",
-        "description": "selenium.webdriver.chrome.options",
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.select",
+        "description": "selenium.webdriver.support.select",
         "isExtraImport": true,
-        "detail": "selenium.webdriver.chrome.options",
+        "detail": "selenium.webdriver.support.select",
+        "documentation": {}
+    },
+    {
+        "label": "Select",
+        "importPath": "selenium.webdriver.support.select",
+        "description": "selenium.webdriver.support.select",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.select",
+        "documentation": {}
+    },
+    {
+        "label": "BasePage",
+        "importPath": "Pages.base_page",
+        "description": "Pages.base_page",
+        "isExtraImport": true,
+        "detail": "Pages.base_page",
+        "documentation": {}
+    },
+    {
+        "label": "BasePage",
+        "importPath": "Pages.base_page",
+        "description": "Pages.base_page",
+        "isExtraImport": true,
+        "detail": "Pages.base_page",
+        "documentation": {}
+    },
+    {
+        "label": "BasePage",
+        "importPath": "Pages.base_page",
+        "description": "Pages.base_page",
+        "isExtraImport": true,
+        "detail": "Pages.base_page",
+        "documentation": {}
+    },
+    {
+        "label": "HomePageLocators",
+        "importPath": "Resources.locators",
+        "description": "Resources.locators",
+        "isExtraImport": true,
+        "detail": "Resources.locators",
+        "documentation": {}
+    },
+    {
+        "label": "SignInPageLocators",
+        "importPath": "Resources.locators",
+        "description": "Resources.locators",
+        "isExtraImport": true,
+        "detail": "Resources.locators",
+        "documentation": {}
+    },
+    {
+        "label": "SignUpPageLocators",
+        "importPath": "Resources.locators",
+        "description": "Resources.locators",
+        "isExtraImport": true,
+        "detail": "Resources.locators",
         "documentation": {}
     },
     {
@@ -85,6 +117,225 @@
         "description": "selenium.webdriver.common.by",
         "isExtraImport": true,
         "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "Options",
+        "importPath": "selenium.webdriver.chrome.options",
+        "description": "selenium.webdriver.chrome.options",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.options",
+        "documentation": {}
+    },
+    {
+        "label": "Options",
+        "importPath": "selenium.webdriver.chrome.options",
+        "description": "selenium.webdriver.chrome.options",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.options",
+        "documentation": {}
+    },
+    {
+        "label": "Options",
+        "importPath": "selenium.webdriver.chrome.options",
+        "description": "selenium.webdriver.chrome.options",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.options",
+        "documentation": {}
+    },
+    {
+        "label": "Options",
+        "importPath": "selenium.webdriver.chrome.options",
+        "description": "selenium.webdriver.chrome.options",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.options",
+        "documentation": {}
+    },
+    {
+        "label": "Options",
+        "importPath": "selenium.webdriver.chrome.options",
+        "description": "selenium.webdriver.chrome.options",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.options",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "HomePage",
+        "importPath": "Pages.home_page",
+        "description": "Pages.home_page",
+        "isExtraImport": true,
+        "detail": "Pages.home_page",
+        "documentation": {}
+    },
+    {
+        "label": "SignInPage",
+        "importPath": "Pages.signin_page",
+        "description": "Pages.signin_page",
+        "isExtraImport": true,
+        "detail": "Pages.signin_page",
+        "documentation": {}
+    },
+    {
+        "label": "SignUpPage",
+        "importPath": "Pages.signup_page",
+        "description": "Pages.signup_page",
+        "isExtraImport": true,
+        "detail": "Pages.signup_page",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterForm",
+        "importPath": "Resources.registerform",
+        "description": "Resources.registerform",
+        "isExtraImport": true,
+        "detail": "Resources.registerform",
         "documentation": {}
     },
     {
@@ -96,11 +347,102 @@
         "documentation": {}
     },
     {
-        "label": "expected_conditions",
-        "importPath": "selenium.webdriver.support",
-        "description": "selenium.webdriver.support",
-        "isExtraImport": true,
-        "detail": "selenium.webdriver.support",
+        "label": "BasePage",
+        "kind": 6,
+        "importPath": "Workshop_solution_best_practice.Pages.base_page",
+        "description": "Workshop_solution_best_practice.Pages.base_page",
+        "peekOfCode": "class BasePage():\n    def __init__(self, driver):\n        self.driver = driver\n        self.wait = WebDriverWait(self.driver, 10)\n    def click(self, by_locator):\n        self.wait.until(EC.visibility_of_element_located(by_locator)).click()\n    def enter_text(self, by_locator, text):\n        self.wait.until(EC.visibility_of_element_located(by_locator)).send_keys(text)\n    def clear_text(self, by_locator):\n        self.wait.until(EC.visibility_of_element_located(by_locator)).clear()",
+        "detail": "Workshop_solution_best_practice.Pages.base_page",
+        "documentation": {}
+    },
+    {
+        "label": "HomePage",
+        "kind": 6,
+        "importPath": "Workshop_solution_best_practice.Pages.home_page",
+        "description": "Workshop_solution_best_practice.Pages.home_page",
+        "peekOfCode": "class HomePage(BasePage):\n    def __init__(self, driver):\n        super().__init__(driver)\n    def click_signin(self):\n        self.click(HomePageLocators.signin_button)\n    def add_persian(self):\n        self.click(HomePageLocators.cats_button)\n        self.click(HomePageLocators.persian_button)\n        self.click(HomePageLocators.persian_add_button)\n    def add_golden(self):",
+        "detail": "Workshop_solution_best_practice.Pages.home_page",
+        "documentation": {}
+    },
+    {
+        "label": "SignInPage",
+        "kind": 6,
+        "importPath": "Workshop_solution_best_practice.Pages.signin_page",
+        "description": "Workshop_solution_best_practice.Pages.signin_page",
+        "peekOfCode": "class SignInPage(BasePage):\n    def __init__(self, driver):\n        super().__init__(driver)\n    def click_register(self):\n        self.click(SignInPageLocators.register_button)\n    def signin(self, username, password):\n        self.enter_text(SignInPageLocators.username_field, username)\n        self.clear_text(SignInPageLocators.password_field)\n        self.enter_text(SignInPageLocators.password_field, password)\n        self.click(SignInPageLocators.signin_button)",
+        "detail": "Workshop_solution_best_practice.Pages.signin_page",
+        "documentation": {}
+    },
+    {
+        "label": "SignUpPage",
+        "kind": 6,
+        "importPath": "Workshop_solution_best_practice.Pages.signup_page",
+        "description": "Workshop_solution_best_practice.Pages.signup_page",
+        "peekOfCode": "class SignUpPage(BasePage):\n    def __init__(self, driver):\n        super().__init__(driver)\n    def fill_form(self, register_form):\n        self.enter_text(SignUpPageLocators.username_field, register_form.Username)\n        self.enter_text(SignUpPageLocators.password_field, register_form.Password)\n        self.enter_text(SignUpPageLocators.repeat_password_field, register_form.Password)\n        self.enter_text(SignUpPageLocators.firstname_field, register_form.Firstname)\n        self.enter_text(SignUpPageLocators.lastname_field, register_form.Lastname)\n        self.enter_text(SignUpPageLocators.email_field, register_form.Email)",
+        "detail": "Workshop_solution_best_practice.Pages.signup_page",
+        "documentation": {}
+    },
+    {
+        "label": "HomePageLocators",
+        "kind": 6,
+        "importPath": "Workshop_solution_best_practice.Resources.locators",
+        "description": "Workshop_solution_best_practice.Resources.locators",
+        "peekOfCode": "class HomePageLocators():\n    signin_button          = (By.LINK_TEXT,\"Sign In\")\n    cats_button            = (By.CSS_SELECTOR,\"div[id*='Sidebar'] a img[src*='cats']\")\n    persian_button         = (By.LINK_TEXT,\"FL-DLH-02\")\n    golden_button          = (By.CSS_SELECTOR,\"img[src*='dog1']\")\n    persian_add_button     = (By.CSS_SELECTOR,\"a[href*='workingItemId=EST-16']\")\n    golden_add_button      = (By.CSS_SELECTOR,\"a[href*='workingItemId=EST-28']\")\n    search_field           = (By.CSS_SELECTOR,\"input[name*='key']\")\n    search_button          = (By.CSS_SELECTOR,\"input[name*='search']\")\n    products_list          = (By.XPATH,\"//tr/td[7]\")",
+        "detail": "Workshop_solution_best_practice.Resources.locators",
+        "documentation": {}
+    },
+    {
+        "label": "SignInPageLocators",
+        "kind": 6,
+        "importPath": "Workshop_solution_best_practice.Resources.locators",
+        "description": "Workshop_solution_best_practice.Resources.locators",
+        "peekOfCode": "class SignInPageLocators():\n    register_button = (By.PARTIAL_LINK_TEXT,\"Register\")\n    username_field  = (By.CSS_SELECTOR,\"input[name*='name']\")\n    password_field  = (By.CSS_SELECTOR,\"input[name*='pass']\")\n    signin_button   = (By.CSS_SELECTOR,\"input[name*='sign']\")\nclass SignUpPageLocators():\n    username_field          = (By.NAME,\"username\")\n    password_field          = (By.NAME,\"password\")\n    repeat_password_field   = (By.NAME,\"repeatedPassword\")\n    firstname_field         = (By.NAME,\"account.firstName\")",
+        "detail": "Workshop_solution_best_practice.Resources.locators",
+        "documentation": {}
+    },
+    {
+        "label": "SignUpPageLocators",
+        "kind": 6,
+        "importPath": "Workshop_solution_best_practice.Resources.locators",
+        "description": "Workshop_solution_best_practice.Resources.locators",
+        "peekOfCode": "class SignUpPageLocators():\n    username_field          = (By.NAME,\"username\")\n    password_field          = (By.NAME,\"password\")\n    repeat_password_field   = (By.NAME,\"repeatedPassword\")\n    firstname_field         = (By.NAME,\"account.firstName\")\n    lastname_field          = (By.NAME,\"account.lastName\")\n    email_field             = (By.NAME,\"account.email\")\n    phone_field             = (By.NAME,\"account.phone\")\n    address_field           = (By.NAME,\"account.address1\")\n    city_field              = (By.NAME,\"account.city\")",
+        "detail": "Workshop_solution_best_practice.Resources.locators",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterForm",
+        "kind": 6,
+        "importPath": "Workshop_solution_best_practice.Resources.registerform",
+        "description": "Workshop_solution_best_practice.Resources.registerform",
+        "peekOfCode": "class RegisterForm:\n    def __init__(self, username, password, firstname, lastname, email, phone, address, city, state, zip, country, language, favourite, myList, myBanner):\n        self.Username   = username\n        self.Password   = password\n        self.Firstname  = firstname\n        self.Lastname   = lastname\n        self.Email      = email\n        self.Phone      = phone\n        self.Address    = address\n        self.City       = city",
+        "detail": "Workshop_solution_best_practice.Resources.registerform",
+        "documentation": {}
+    },
+    {
+        "label": "test_totalcost",
+        "kind": 2,
+        "importPath": "Workshop_solution_best_practice.Test.test_totalcost",
+        "description": "Workshop_solution_best_practice.Test.test_totalcost",
+        "peekOfCode": "def test_totalcost():\n    chrome_options = Options()\n    chrome_options.add_experimental_option(\"detach\", True)\n    service_obj = Service(\"../Drivers/chromedriver\")\n    driver = webdriver.Chrome(service = service_obj, options=chrome_options)\n    driver.maximize_window()\n    driver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\n    driver.implicitly_wait(5)\n    homePage    = HomePage(driver)\n    signinPage  = SignInPage(driver)",
+        "detail": "Workshop_solution_best_practice.Test.test_totalcost",
+        "documentation": {}
+    },
+    {
+        "label": "base_dir",
+        "kind": 5,
+        "importPath": "Workshop_solution_best_practice.Test.test_totalcost",
+        "description": "Workshop_solution_best_practice.Test.test_totalcost",
+        "peekOfCode": "base_dir = os.path.dirname(__file__) or '.'\nparent_dir = os.path.abspath(os.path.join(base_dir, '..'))\nsys.path.append(parent_dir)\nfrom Pages.home_page import HomePage\nfrom Pages.signin_page import SignInPage\nfrom Pages.signup_page import SignUpPage\nfrom Resources.registerform import RegisterForm\ndef test_totalcost():\n    chrome_options = Options()\n    chrome_options.add_experimental_option(\"detach\", True)",
+        "detail": "Workshop_solution_best_practice.Test.test_totalcost",
+        "documentation": {}
+    },
+    {
+        "label": "parent_dir",
+        "kind": 5,
+        "importPath": "Workshop_solution_best_practice.Test.test_totalcost",
+        "description": "Workshop_solution_best_practice.Test.test_totalcost",
+        "peekOfCode": "parent_dir = os.path.abspath(os.path.join(base_dir, '..'))\nsys.path.append(parent_dir)\nfrom Pages.home_page import HomePage\nfrom Pages.signin_page import SignInPage\nfrom Pages.signup_page import SignUpPage\nfrom Resources.registerform import RegisterForm\ndef test_totalcost():\n    chrome_options = Options()\n    chrome_options.add_experimental_option(\"detach\", True)\n    service_obj = Service(\"../Drivers/chromedriver\")",
+        "detail": "Workshop_solution_best_practice.Test.test_totalcost",
         "documentation": {}
     },
     {
@@ -200,6 +542,132 @@
         "description": "wait",
         "peekOfCode": "wait = WebDriverWait(driver,10)\nwait.until(expected_conditions.presence_of_all_elements_located(By.CSS_SELECTOR,\".someclass\"))",
         "detail": "wait",
+        "documentation": {}
+    },
+    {
+        "label": "chrome_options",
+        "kind": 5,
+        "importPath": "workshop",
+        "description": "workshop",
+        "peekOfCode": "chrome_options = Options()\nchrome_options.add_experimental_option(\"detach\", True)\nservice_obj = Service()\ndriver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.implicitly_wait(5)\nusername = \"test_champ_\"+str(uuid.uuid1()).split(\"-\")[-2]\npassword = \"cccc\"",
+        "detail": "workshop",
+        "documentation": {}
+    },
+    {
+        "label": "service_obj",
+        "kind": 5,
+        "importPath": "workshop",
+        "description": "workshop",
+        "peekOfCode": "service_obj = Service()\ndriver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.implicitly_wait(5)\nusername = \"test_champ_\"+str(uuid.uuid1()).split(\"-\")[-2]\npassword = \"cccc\"",
+        "detail": "workshop",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "workshop",
+        "description": "workshop",
+        "peekOfCode": "driver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.implicitly_wait(5)\nusername = \"test_champ_\"+str(uuid.uuid1()).split(\"-\")[-2]\npassword = \"cccc\"",
+        "detail": "workshop",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "workshop",
+        "description": "workshop",
+        "peekOfCode": "username = \"test_champ_\"+str(uuid.uuid1()).split(\"-\")[-2]\npassword = \"cccc\"",
+        "detail": "workshop",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "workshop",
+        "description": "workshop",
+        "peekOfCode": "password = \"cccc\"",
+        "detail": "workshop",
+        "documentation": {}
+    },
+    {
+        "label": "chrome_options",
+        "kind": 5,
+        "importPath": "workshop_solution",
+        "description": "workshop_solution",
+        "peekOfCode": "chrome_options = Options()\nchrome_options.add_experimental_option(\"detach\", True)\nservice_obj = Service(\"./chromedriver\")\ndriver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.implicitly_wait(5)\nusername = \"test_champ_\"+str(uuid.uuid1()).split(\"-\")[-2]\npassword = \"cccc\"\n# HomePage",
+        "detail": "workshop_solution",
+        "documentation": {}
+    },
+    {
+        "label": "service_obj",
+        "kind": 5,
+        "importPath": "workshop_solution",
+        "description": "workshop_solution",
+        "peekOfCode": "service_obj = Service(\"./chromedriver\")\ndriver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.implicitly_wait(5)\nusername = \"test_champ_\"+str(uuid.uuid1()).split(\"-\")[-2]\npassword = \"cccc\"\n# HomePage\ndriver.find_element(By.LINK_TEXT,\"Sign In\").click()\n# SignInPage",
+        "detail": "workshop_solution",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "workshop_solution",
+        "description": "workshop_solution",
+        "peekOfCode": "driver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.implicitly_wait(5)\nusername = \"test_champ_\"+str(uuid.uuid1()).split(\"-\")[-2]\npassword = \"cccc\"\n# HomePage\ndriver.find_element(By.LINK_TEXT,\"Sign In\").click()\n# SignInPage\ndriver.find_element(By.PARTIAL_LINK_TEXT,\"Register\").click()",
+        "detail": "workshop_solution",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "workshop_solution",
+        "description": "workshop_solution",
+        "peekOfCode": "username = \"test_champ_\"+str(uuid.uuid1()).split(\"-\")[-2]\npassword = \"cccc\"\n# HomePage\ndriver.find_element(By.LINK_TEXT,\"Sign In\").click()\n# SignInPage\ndriver.find_element(By.PARTIAL_LINK_TEXT,\"Register\").click()\n# SignUpPage\ndriver.find_element(By.NAME,\"username\").send_keys(username)\ndriver.find_element(By.NAME,\"password\").send_keys(password)\ndriver.find_element(By.NAME,\"repeatedPassword\").send_keys(password)",
+        "detail": "workshop_solution",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "workshop_solution",
+        "description": "workshop_solution",
+        "peekOfCode": "password = \"cccc\"\n# HomePage\ndriver.find_element(By.LINK_TEXT,\"Sign In\").click()\n# SignInPage\ndriver.find_element(By.PARTIAL_LINK_TEXT,\"Register\").click()\n# SignUpPage\ndriver.find_element(By.NAME,\"username\").send_keys(username)\ndriver.find_element(By.NAME,\"password\").send_keys(password)\ndriver.find_element(By.NAME,\"repeatedPassword\").send_keys(password)\ndriver.find_element(By.NAME,\"account.firstName\").send_keys(\"testfirst\")",
+        "detail": "workshop_solution",
+        "documentation": {}
+    },
+    {
+        "label": "dropdownFavCat",
+        "kind": 5,
+        "importPath": "workshop_solution",
+        "description": "workshop_solution",
+        "peekOfCode": "dropdownFavCat = Select(driver.find_element(By.NAME,\"account.favouriteCategoryId\"))\ndropdownFavCat.select_by_visible_text(\"CATS\")\ndriver.find_element(By.NAME,\"account.listOption\").click()\ndriver.find_element(By.NAME,\"newAccount\").click()\n# HomePage\ndriver.find_element(By.LINK_TEXT,\"Sign In\").click()\n# SignInPage\ndriver.find_element(By.CSS_SELECTOR,\"input[name*='name']\").send_keys(username)\ndriver.find_element(By.CSS_SELECTOR,\"input[name*='pass']\").clear()\ndriver.find_element(By.CSS_SELECTOR,\"input[name*='pass']\").send_keys(password)",
+        "detail": "workshop_solution",
+        "documentation": {}
+    },
+    {
+        "label": "totalCost",
+        "kind": 5,
+        "importPath": "workshop_solution",
+        "description": "workshop_solution",
+        "peekOfCode": "totalCost = 0\nproductWebElements = driver.find_elements(By.XPATH,\"//tr/td[7]\")\nfor ele in productWebElements:\n    totalCost += float(ele.text[1:])\ntotalCostRef = float(driver.find_element(By.CSS_SELECTOR,\"td[colspan='7']\").text.split(\"$\")[1])\nprint(totalCost)\nprint(totalCostRef)\nassert totalCostRef == totalCost",
+        "detail": "workshop_solution",
+        "documentation": {}
+    },
+    {
+        "label": "productWebElements",
+        "kind": 5,
+        "importPath": "workshop_solution",
+        "description": "workshop_solution",
+        "peekOfCode": "productWebElements = driver.find_elements(By.XPATH,\"//tr/td[7]\")\nfor ele in productWebElements:\n    totalCost += float(ele.text[1:])\ntotalCostRef = float(driver.find_element(By.CSS_SELECTOR,\"td[colspan='7']\").text.split(\"$\")[1])\nprint(totalCost)\nprint(totalCostRef)\nassert totalCostRef == totalCost",
+        "detail": "workshop_solution",
+        "documentation": {}
+    },
+    {
+        "label": "totalCostRef",
+        "kind": 5,
+        "importPath": "workshop_solution",
+        "description": "workshop_solution",
+        "peekOfCode": "totalCostRef = float(driver.find_element(By.CSS_SELECTOR,\"td[colspan='7']\").text.split(\"$\")[1])\nprint(totalCost)\nprint(totalCostRef)\nassert totalCostRef == totalCost",
+        "detail": "workshop_solution",
         "documentation": {}
     }
 ]
