@@ -8,7 +8,7 @@ import uuid
 chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
 
-service_obj = Service()
+service_obj = Service("./chromedriver")
 driver = webdriver.Chrome(service = service_obj, options=chrome_options)
 
 driver.maximize_window()

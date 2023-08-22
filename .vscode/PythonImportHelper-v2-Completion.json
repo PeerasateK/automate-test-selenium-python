@@ -549,7 +549,7 @@
         "kind": 5,
         "importPath": "workshop",
         "description": "workshop",
-        "peekOfCode": "chrome_options = Options()\nchrome_options.add_experimental_option(\"detach\", True)\nservice_obj = Service()\ndriver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.implicitly_wait(5)\nusername = \"test_champ_\"+str(uuid.uuid1()).split(\"-\")[-2]\npassword = \"cccc\"",
+        "peekOfCode": "chrome_options = Options()\nchrome_options.add_experimental_option(\"detach\", True)\nservice_obj = Service(\"./chromedriver\")\ndriver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.implicitly_wait(5)\nusername = \"test_champ_\"+str(uuid.uuid1()).split(\"-\")[-2]\npassword = \"cccc\"",
         "detail": "workshop",
         "documentation": {}
     },
@@ -558,7 +558,7 @@
         "kind": 5,
         "importPath": "workshop",
         "description": "workshop",
-        "peekOfCode": "service_obj = Service()\ndriver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.implicitly_wait(5)\nusername = \"test_champ_\"+str(uuid.uuid1()).split(\"-\")[-2]\npassword = \"cccc\"",
+        "peekOfCode": "service_obj = Service(\"./chromedriver\")\ndriver = webdriver.Chrome(service = service_obj, options=chrome_options)\ndriver.maximize_window()\ndriver.get(\"https://petstore.octoperf.com/actions/Catalog.action\")\ndriver.implicitly_wait(5)\nusername = \"test_champ_\"+str(uuid.uuid1()).split(\"-\")[-2]\npassword = \"cccc\"",
         "detail": "workshop",
         "documentation": {}
     },
